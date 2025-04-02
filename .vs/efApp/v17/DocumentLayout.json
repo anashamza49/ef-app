@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\repository\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\repository\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\repository\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\repository\\interfaces\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\repository\\implementations\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\repository\\implementations\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|c:\\users\\ahamzaoui\\source\\repos\\efapp\\efapp\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03EAB813-1308-4AFD-95E5-4ACF2DA4045F}|efApp\\efApp.csproj|solutionrelative:efapp\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +71,171 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "efApp\\Repository\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Implementations\\Repository.cs",
+              "RelativeToolTip": "efApp\\Repository\\Implementations\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:56:46.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Implementations\\ReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "efApp\\Repository\\Implementations\\ReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Implementations\\ReadOnlyRepository.cs",
+              "RelativeToolTip": "efApp\\Repository\\Implementations\\ReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:56:35.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Interfaces\\IReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "efApp\\Repository\\Interfaces\\IReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Interfaces\\IReadOnlyRepository.cs",
+              "RelativeToolTip": "efApp\\Repository\\Interfaces\\IReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:56:20.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "efApp\\Repository\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "efApp\\Repository\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:56:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\appsettings.json",
+              "RelativeDocumentMoniker": "efApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\appsettings.json",
+              "RelativeToolTip": "efApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T12:03:12.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Program.cs",
               "RelativeDocumentMoniker": "efApp\\Program.cs",
               "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Program.cs",
               "RelativeToolTip": "efApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:20:59.397Z",
+              "WhenOpened": "2025-04-02T12:03:08.101Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Data\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "efApp\\Data\\MyDBContext.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Data\\MyDBContext.cs",
+              "RelativeToolTip": "efApp\\Data\\MyDBContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:45:46.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Enrollment.cs",
+              "RelativeToolTip": "efApp\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:38:07.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Person.cs",
+              "RelativeToolTip": "efApp\\Models\\Person.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:37:35.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Student.cs",
+              "RelativeToolTip": "efApp\\Models\\Student.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:37:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Subject.cs",
+              "RelativeToolTip": "efApp\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:38:00.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Teacher.cs",
+              "RelativeToolTip": "efApp\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:37:52.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "efApp\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\source\\repos\\efApp\\efApp\\Models\\Class.cs",
+              "RelativeToolTip": "efApp\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:38:16.183Z",
+              "EditorCaption": ""
             }
           ]
         }
