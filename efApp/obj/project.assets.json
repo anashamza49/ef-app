@@ -922,6 +922,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/7.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.3": {
         "type": "package",
         "dependencies": {
@@ -1364,6 +1377,66 @@
         },
         "runtime": {
           "lib/netstandard2.1/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SimpleInjector.Integration.AspNetCore/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "SimpleInjector": "5.4.0",
+          "SimpleInjector.Integration.GenericHost": "5.5.0",
+          "SimpleInjector.Integration.ServiceCollection": "5.5.0"
+        },
+        "compile": {
+          "lib/net7.0/SimpleInjector.Integration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "SimpleInjector.Integration.GenericHost/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
+          "SimpleInjector": "5.4.0",
+          "SimpleInjector.Integration.ServiceCollection": "5.5.0"
+        },
+        "compile": {
+          "lib/net7.0/SimpleInjector.Integration.GenericHost.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.GenericHost.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SimpleInjector.Integration.ServiceCollection/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "7.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "SimpleInjector": "5.4.0"
+        },
+        "compile": {
+          "lib/net7.0/SimpleInjector.Integration.ServiceCollection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.ServiceCollection.dll": {
             "related": ".xml"
           }
         }
@@ -3386,6 +3459,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Localization.Abstractions/7.0.5": {
+      "sha512": "9aKOv6iaYLhCLsLIYIZePKLQ8LYpnasoqjg5lv2RCOz+jkLp/A7YmtNrYfhhmNARX2sq8427KQOyvkFIf8uLaw==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.7.0.5.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Logging/9.0.3": {
       "sha512": "utIi2R1nm+PCWkvWBf1Ou6LWqg9iLfHU23r8yyU9VCvda4dEs7xbTZSwGa5KuwbpzpgCbHCIuKaFHB3zyFmnGw==",
       "type": "package",
@@ -4041,6 +4133,60 @@
         "lib/netstandard2.1/SimpleInjector.xml",
         "simpleinjector.5.5.0.nupkg.sha512",
         "simpleinjector.nuspec",
+        "simpleinjector.png"
+      ]
+    },
+    "SimpleInjector.Integration.AspNetCore/5.5.0": {
+      "sha512": "2OhkvcolPL0N5O3z8PZoP2cVMCRfWcJci6mFIWdEPX5C0WGIhGm5d2KHEDEO0R0AFewqOOx3Ais3BJM2KdX/8Q==",
+      "type": "package",
+      "path": "simpleinjector.integration.aspnetcore/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SimpleInjector.Integration.AspNetCore.dll",
+        "lib/net6.0/SimpleInjector.Integration.AspNetCore.xml",
+        "lib/net7.0/SimpleInjector.Integration.AspNetCore.dll",
+        "lib/net7.0/SimpleInjector.Integration.AspNetCore.xml",
+        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll",
+        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.xml",
+        "simpleinjector.integration.aspnetcore.5.5.0.nupkg.sha512",
+        "simpleinjector.integration.aspnetcore.nuspec",
+        "simpleinjector.png"
+      ]
+    },
+    "SimpleInjector.Integration.GenericHost/5.5.0": {
+      "sha512": "EaLqV680XrLftarJionoaDSwMdwluuK6bhOBZhuumXxCwcMH7LdZ0M0UbgS4W0uYtLj1OGpiJUTfP7j8eikPwA==",
+      "type": "package",
+      "path": "simpleinjector.integration.generichost/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SimpleInjector.Integration.GenericHost.dll",
+        "lib/net6.0/SimpleInjector.Integration.GenericHost.xml",
+        "lib/net7.0/SimpleInjector.Integration.GenericHost.dll",
+        "lib/net7.0/SimpleInjector.Integration.GenericHost.xml",
+        "lib/netstandard2.0/SimpleInjector.Integration.GenericHost.dll",
+        "lib/netstandard2.0/SimpleInjector.Integration.GenericHost.xml",
+        "simpleinjector.integration.generichost.5.5.0.nupkg.sha512",
+        "simpleinjector.integration.generichost.nuspec",
+        "simpleinjector.png"
+      ]
+    },
+    "SimpleInjector.Integration.ServiceCollection/5.5.0": {
+      "sha512": "+WhjLRtJ6zSSfQRDk71d+RXIkVThfEzNJPmOGCA1O6q2a/srhZxG+wGMhqAK5K2E0fn9ea1w3zB/wxyWpjrbaQ==",
+      "type": "package",
+      "path": "simpleinjector.integration.servicecollection/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SimpleInjector.Integration.ServiceCollection.dll",
+        "lib/net6.0/SimpleInjector.Integration.ServiceCollection.xml",
+        "lib/net7.0/SimpleInjector.Integration.ServiceCollection.dll",
+        "lib/net7.0/SimpleInjector.Integration.ServiceCollection.xml",
+        "lib/netstandard2.0/SimpleInjector.Integration.ServiceCollection.dll",
+        "lib/netstandard2.0/SimpleInjector.Integration.ServiceCollection.xml",
+        "simpleinjector.integration.servicecollection.5.5.0.nupkg.sha512",
+        "simpleinjector.integration.servicecollection.nuspec",
         "simpleinjector.png"
       ]
     },
@@ -5308,7 +5454,8 @@
       "Microsoft.Extensions.Hosting >= 9.0.3",
       "Microsoft.Extensions.Hosting.Abstractions >= 9.0.3",
       "Newtonsoft.Json >= 13.0.3",
-      "SimpleInjector >= 5.5.0"
+      "SimpleInjector >= 5.5.0",
+      "SimpleInjector.Integration.AspNetCore >= 5.5.0"
     ]
   },
   "packageFolders": {
@@ -5394,6 +5541,10 @@
             "version": "[13.0.3, )"
           },
           "SimpleInjector": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          },
+          "SimpleInjector.Integration.AspNetCore": {
             "target": "Package",
             "version": "[5.5.0, )"
           }

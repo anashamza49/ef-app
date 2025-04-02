@@ -10,9 +10,8 @@ namespace efApp.Data
 {
     public class MyDbContext : DbContext
     {
-        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
-        {
-        }
+        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
+
         public DbSet<Class> Classes { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Student> Students { get; set; }
@@ -23,12 +22,18 @@ namespace efApp.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Configure entity properties, relationships, etc.
+
+            // Configure entity properties, relationships
+
             modelBuilder.Entity<Enrollment>()
                 .HasOne(e => e.Class)
                 .WithMany(c => c.Enrollments)
                 .HasForeignKey(e => e.ClassId);
-            // Add more configurations as needed
+            modelBuilder.Entity<Class>()
+                .HasOne(c => c.Teacher)
+                .WithMany()
+                .HasForeignKey(c => c.TeacherId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

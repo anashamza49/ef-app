@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("efApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746627fa64de05561282651ce547cc7547403ccf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbcac9f41141ab628232c5db12f439c017c8fb43")]
 [assembly: System.Reflection.AssemblyProductAttribute("efApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("efApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

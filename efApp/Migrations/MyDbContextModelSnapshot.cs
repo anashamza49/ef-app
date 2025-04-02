@@ -43,6 +43,8 @@ namespace efApp.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("TeacherId");
+
                     b.ToTable("Classes");
                 });
 
@@ -150,6 +152,17 @@ namespace efApp.Migrations
                     b.HasDiscriminator().HasValue("Teacher");
                 });
 
+            modelBuilder.Entity("efApp.Models.Class", b =>
+                {
+                    b.HasOne("efApp.Models.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Teacher");
+                });
+
             modelBuilder.Entity("efApp.Models.Enrollment", b =>
                 {
                     b.HasOne("efApp.Models.Class", "Class")
@@ -159,7 +172,7 @@ namespace efApp.Migrations
                         .IsRequired();
 
                     b.HasOne("efApp.Models.Student", "Student")
-                        .WithMany()
+                        .WithMany("Enrollments")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -181,6 +194,11 @@ namespace efApp.Migrations
                 });
 
             modelBuilder.Entity("efApp.Models.Class", b =>
+                {
+                    b.Navigation("Enrollments");
+                });
+
+            modelBuilder.Entity("efApp.Models.Student", b =>
                 {
                     b.Navigation("Enrollments");
                 });

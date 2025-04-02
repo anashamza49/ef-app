@@ -14,7 +14,9 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.14",
           "Microsoft.Extensions.Hosting": "9.0.3",
           "Microsoft.Extensions.Hosting.Abstractions": "9.0.3",
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "SimpleInjector": "5.5.0",
+          "SimpleInjector.Integration.AspNetCore": "5.5.0"
         },
         "runtime": {
           "efApp.dll": {}
@@ -425,12 +427,6 @@
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.3"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
         }
       },
       "Microsoft.Extensions.Caching.Memory/8.0.1": {
@@ -682,6 +678,7 @@
           }
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/7.0.5": {},
       "Microsoft.Extensions.Logging/9.0.3": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.3",
@@ -959,6 +956,59 @@
           }
         }
       },
+      "SimpleInjector/5.5.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleInjector.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "SimpleInjector.Integration.AspNetCore/5.5.0": {
+        "dependencies": {
+          "SimpleInjector": "5.5.0",
+          "SimpleInjector.Integration.GenericHost": "5.5.0",
+          "SimpleInjector.Integration.ServiceCollection": "5.5.0"
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.AspNetCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "SimpleInjector.Integration.GenericHost/5.5.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.3",
+          "SimpleInjector": "5.5.0",
+          "SimpleInjector.Integration.ServiceCollection": "5.5.0"
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.GenericHost.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "SimpleInjector.Integration.ServiceCollection/5.5.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Localization.Abstractions": "7.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.3",
+          "SimpleInjector": "5.5.0"
+        },
+        "runtime": {
+          "lib/net7.0/SimpleInjector.Integration.ServiceCollection.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -982,6 +1032,11 @@
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Composition/6.0.0": {
@@ -1554,6 +1609,13 @@
       "path": "microsoft.extensions.hosting.abstractions/9.0.3",
       "hashPath": "microsoft.extensions.hosting.abstractions.9.0.3.nupkg.sha512"
     },
+    "Microsoft.Extensions.Localization.Abstractions/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9aKOv6iaYLhCLsLIYIZePKLQ8LYpnasoqjg5lv2RCOz+jkLp/A7YmtNrYfhhmNARX2sq8427KQOyvkFIf8uLaw==",
+      "path": "microsoft.extensions.localization.abstractions/7.0.5",
+      "hashPath": "microsoft.extensions.localization.abstractions.7.0.5.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/9.0.3": {
       "type": "package",
       "serviceable": true,
@@ -1722,6 +1784,34 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
+    "SimpleInjector/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ybPs0RE2x3mmBdXD/ZsPUwKGNSa8bZnI2HWeO2irwVHvzBkvYb+KQRaK2dIcKIWPD8cBgxekZdIi3YhRLfq8Xw==",
+      "path": "simpleinjector/5.5.0",
+      "hashPath": "simpleinjector.5.5.0.nupkg.sha512"
+    },
+    "SimpleInjector.Integration.AspNetCore/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2OhkvcolPL0N5O3z8PZoP2cVMCRfWcJci6mFIWdEPX5C0WGIhGm5d2KHEDEO0R0AFewqOOx3Ais3BJM2KdX/8Q==",
+      "path": "simpleinjector.integration.aspnetcore/5.5.0",
+      "hashPath": "simpleinjector.integration.aspnetcore.5.5.0.nupkg.sha512"
+    },
+    "SimpleInjector.Integration.GenericHost/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EaLqV680XrLftarJionoaDSwMdwluuK6bhOBZhuumXxCwcMH7LdZ0M0UbgS4W0uYtLj1OGpiJUTfP7j8eikPwA==",
+      "path": "simpleinjector.integration.generichost/5.5.0",
+      "hashPath": "simpleinjector.integration.generichost.5.5.0.nupkg.sha512"
+    },
+    "SimpleInjector.Integration.ServiceCollection/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WhjLRtJ6zSSfQRDk71d+RXIkVThfEzNJPmOGCA1O6q2a/srhZxG+wGMhqAK5K2E0fn9ea1w3zB/wxyWpjrbaQ==",
+      "path": "simpleinjector.integration.servicecollection/5.5.0",
+      "hashPath": "simpleinjector.integration.servicecollection.5.5.0.nupkg.sha512"
+    },
     "System.ClientModel/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1742,6 +1832,13 @@
       "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "path": "system.collections.immutable/6.0.0",
       "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "path": "system.componentmodel/4.0.1",
+      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
     },
     "System.Composition/6.0.0": {
       "type": "package",
